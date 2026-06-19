@@ -15,7 +15,7 @@
 }
 
 #picture{
-  width: (20vw, 50px);
+  width: (30vw, 300px);
   aspect-ratio: 1 / 1;
   border-radius: 50%;
   position: relative;
@@ -29,7 +29,6 @@
   align-items: left;
   justify-content: center;
   flex-direction: column;
-  background-color: blue;
 }
 
 #link-container{
