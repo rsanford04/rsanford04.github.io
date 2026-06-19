@@ -15,8 +15,8 @@
 }
 
 #picture{
-  width: 500px;
-  height: 500px;
+  width: (30vw, 300px);
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
   position: relative;
 }
