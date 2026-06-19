@@ -16,8 +16,9 @@
 
 #picture{
   width: (30vw, 300px);
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 1;
   border-radius: 50%;
+  object-fit: cover;
   position: relative;
 }
 
