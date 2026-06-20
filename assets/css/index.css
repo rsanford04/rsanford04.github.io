@@ -16,7 +16,6 @@ body {
 .image-container img {
   width: 300px;
   height: 300px;
-  margin-left: 150px;
   border-radius: 50%;
 }
 
@@ -37,8 +36,6 @@ body {
 .links {
   position: absolute;
   margin-top: 10px;
-  width: 100px;
-  height: 100px;
 }
 
 .links img {
