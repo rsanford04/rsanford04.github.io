@@ -17,6 +17,33 @@ body {
   width: 88vw;
   background-color: #FFFFFF;
 }
+* {
+  margin: 0;
+}
+
+:root {
+  --primary-color: #F4F4F4;
+  --secondary-color: #FFFFFF;
+  --accent-color: #4A90E2;
+  --font-color: #2E2E2E;
+  --main-font-stack: "Roboto", "Verdana", sans-serif;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+.header-container {
+  background-color: var(--secondary-color);
+}
+
+.image-container {
+  position: relative;
+  margin-top: 25px;
+  margin-left: 12vw;
+  width: 88vw;
+  background-color: var(--secondary-color);
+}
 
 .image-container img {
   width: 300px;
@@ -28,8 +55,8 @@ body {
   position: absolute;
   top: 50px;
   left: 325px;
-  font-family: "Roboto", sans-serif;
-  color: #2E2E2E;
+  font-family: var(--main-font-stack);
+  color: var(--font-color);
 }
 
 .text h1 {
@@ -39,6 +66,7 @@ body {
 .text h2{
   margin: 0;
   font-size: 20px;
+  font-weight: lighter;
 }
 
 .links {
